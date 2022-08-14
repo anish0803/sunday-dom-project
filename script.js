@@ -2,13 +2,13 @@ let open = document.querySelector(".open-popup");
 
 let modal = document.querySelector(".modal-box");
 
-let closeBtn = document.querySelector(".close");
+let close = document.querySelector(".close");
 
 open.addEventListener("click", () => {
   modal.classList.add("active");
 });
 
-closeBtn.addEventListener("click", () => {
+close.addEventListener("click", () => {
   modal.classList.remove("active");
 });
 let modalBtn = document.querySelector(".btn");
