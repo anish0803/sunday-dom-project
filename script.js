@@ -1,29 +1,16 @@
-let openBtn = document.querySelector(".open-popup");
+let open = document.querySelector(".open-popup");
 
 let modal = document.querySelector(".modal-box");
 
 let closeBtn = document.querySelector(".close");
 
-openBtn.addEventListener("click", () => {
+open.addEventListener("click", () => {
   modal.classList.add("active");
 });
 
 closeBtn.addEventListener("click", () => {
   modal.classList.remove("active");
 });
-
-
-// let boxes = Array.from(document.querySelectorAll('.box'));
-// console.log(boxes);
-
-// boxes.map((box)=>{
-//   box.addEventListener('click',(e)=>{
-//     let getColor =  e.target.innerText;
-//     console.log(getColor);
-//   })
-// })
-
-
 let modalBtn = document.querySelector(".btn");
 
 modalBtn.addEventListener("click", () => {
