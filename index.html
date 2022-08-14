@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sunday Project</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/928e2332c6.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header>
+      <div class="navlist">
+        <div class="menubar">
+          <a href="#">All</a>
+          <a href="#" class="menubox red-box">box</a>
+          <a href="#"class="menubox yellow-box">box</a>
+          <a href="#"class="menubox blue-box">box</a>
+          <a href="#"class="menubox black-box">box</a>
+          <i class="fa-solid fa-check"></i>
+       
+      </div>
+      <a href="#" class="open-popup">Create Task</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="main">
+            <!-- added to check -->
+            <div class="main-content">
+                
+            </div>
+      </section>
+
+      <!------------- Modal Area----------->
+      <section>
+        <div class="modal-box">
+          <button class="close">X</button>
+          <div class="modal-part">
+            <div class="text-box">
+              <textarea
+                name="task"
+                id="msg"
+                cols="30"
+                rows="10"
+                placeholder="Please enter task !"
+              ></textarea>
+              <button type="button" class="btn">Done</button>
+            </div>
+            <div class="color-area">
+              <div class="box red-box">red</div>
+              <div class="box yellow-box">yellow</div>
+              <div class="box blue-box">blue</div>
+              <div class="box black-box">black</div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
